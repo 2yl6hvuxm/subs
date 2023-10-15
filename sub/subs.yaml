@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-16 00:43:35
+# 创建时间：2023-10-16 00:45:31
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：21
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -35,7 +35,6 @@ proxies:
   - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"104.20.231.210","port":80,"cipher":"auto","uuid":"72d46152-ee0b-4610-efb1-ffb0f786b848","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"my.designlion.buzz"}}}
   - {"name":"🇺🇸_US_美国->🇮🇳_IN_印度_1","type":"vmess","server":"mm3.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mm3.shabijichang.com"}}}
   - {"name":"🇺🇸_US_美国->🇮🇳_IN_印度_2","type":"vmess","server":"mm2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mm2.shabijichang.com"}}}
-  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"111.67.201.33","port":10052,"cipher":"auto","uuid":"3097c8db-70a5-4b3f-a54d-54685a00d086","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/neimenggu001"}}
   - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"61.136.232.6","port":10820,"udp":true,"password":"a6d2c461-b9bd-4ecf-97bf-45d3681fbb3f","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧_GB_英国","type":"vmess","server":"douk.looooooongnet.lol","port":443,"cipher":"auto","uuid":"e5795655-af5e-4f8f-9d8f-cb81491607ed","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
   - {"name":"🇫🇷_FR_法国","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin"}
@@ -63,7 +62,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -91,7 +89,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -119,7 +116,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -146,7 +142,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -173,7 +168,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -200,7 +194,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
@@ -244,7 +237,6 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国->🇮🇳_IN_印度_1
       - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-      - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
       - 🇫🇷_FR_法国
